@@ -198,3 +198,16 @@ height: 200px;
 
     
 }
+
+button{
+    padding: 5px 10px;
+    font-size: large;
+    
+}
+
+
+
+
+.flexes p {
+    font-size: larger;
+}
