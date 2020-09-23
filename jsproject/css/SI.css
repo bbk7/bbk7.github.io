@@ -138,7 +138,7 @@
     display: flex;
     flex-direction:row;
     text-align: center;
-    height: 320px;
+    height: 340px;
     background-color: white;
     font-size: 1.2em;
     
@@ -210,4 +210,21 @@ button{
 
 .flexes p {
     font-size: larger;
+}
+
+.btn-buy{
+    background-color: steelblue;
+}
+
+.btn-buy:hover{
+    transform: scale(1.2);
+}
+
+.btn-restart{
+    background-color: dimgrey;
+    color: white;
+}
+
+.btn-restart:hover{
+    transform: scale(1.2);
 }
