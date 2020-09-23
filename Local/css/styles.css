@@ -10093,7 +10093,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: red;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10503,3 +10503,66 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+/*
+
+//////////////MY CSS//////////
+
+*/
+
+.local-info{
+  text-align: center;
+
+  font-weight: 50;
+  font-size: 1.5em;
+
+}
+
+#product-page{
+  margin-top: 80px;
+  background-color: gray;
+}
+
+
+.hover-shadows:hover {
+  transform: scale(1.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-item {
+  position: relative;
+}
+
+  .product-item .caption h5 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      border-top: 2px solid #333;
+      margin-top: 10px;
+      padding-top: 10px;
+  }
+
+  .product-item .caption .product-item-price {
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 400;
+  }
+
+
+  .product-item .product-item-badge {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      padding: 5px 12px 6px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 600;
+      background: #333;
+      -webkit-border-radius: 4px 0 4px 0;
+      -moz-border-radius: 4px 0 4px 0;
+      /*-o-border-radius: 4px 0 4px 0;*/
+      border-radius: 4px 0 4px 0;
+  }
+
