@@ -10566,3 +10566,6 @@ section#contact form#contactForm :-ms-input-placeholder {
       border-radius: 4px 0 4px 0;
   }
 
+  .portfolio-item :hover{
+    transform: scale(1.2);
+  }
